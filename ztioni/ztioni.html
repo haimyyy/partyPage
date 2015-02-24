@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="../css/style.css" rel="stylesheet">
+		<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+		<script src="ztioniFunction.js"></script>
+		<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	</head>
+	<body>
+		<div id="wrapper" dir="rtl">
+			<header id = "formHeader">
+				<h1>הבחירה הכלכלית</h1>
+			</header>
+			<section id="choice">
+				<img id="logo"></img>
+			</section>
+			<main>
+				<section id="questionnaire" >
+					<h4>בדקו את התשובות שלכם לעומת האג׳נדה של המפלגה:</h4>
+					<div id="right">
+						<article id="artAns0" class="answer0 artAns ansR">
+							<p id="icon_executives" class="icon"></p>
+							<h5 >שכר הבכירים במשק</h5>
+							<h6>צריך לחוקק חוק שיגביל את שכר המנהלים הבכירים בחברות ציבוריות בכל המשק</h6>
+							<button id="button0">
+								עמדת הליכוד
+							</button>
+							<div id="fullAns0" class="fullAns0 fullAnswers">
+								"הליכוד לא ענו לשאלה אבל לפי בנימין נתניהו אין להתערב בשכר שבעלי שליטה משלמים למנהלים הבכירים בחברות שבבעלותם. נתניהו התנגד להצעות חוק פרטיות שהוגשו בנושא, אך לבסוף הקים ועדה שהמליצה לטפל בנושא באמצעות חקיקה שאמורה לרסן את השכר על ידי הגברת מעורבות יתר בעלי המניות. החקיקה אושרה, אבל שכר המנהלים לא רוסן",
+
+							</div>
+						</article>
+						<article id="artAns2" class="answer2 artAns ansR">
+							<p id="army_icon" class="icon"></p>
+							<h5 >תקציב הביטחון</h5>
+							<h6>חייבים להגדיל את תקציב הביטחון בשנה הבאה במידה ניכרת, גם אם הדבר בא על חשבון תקציבים אזרחיים</h6>
+							<button id="button2">
+								עמדת הליכוד
+							</button>
+							<div id="fullAns2" class="fullAns2 fullAnswers"></div>
+						</article>
+						<article id="artAns3" class="answer3 artAns ansR">
+							<p id="retire_icon" class="icon"></p>
+							<h5 >גיל הפרישה</h5>
+							<h6>בגלל העלייה בתוחלת החיים, אין ברירה אלא להעלות את גיל הפרישה</h6>
+							<button id="button3">
+								עמדת הליכוד
+							</button>
+							<div id="fullAns3" class="fullAns3 fullAnswers"></div>
+						</article>
+						<article id="artAns7" class="answer7 artAns ansR">
+							<p id="icon_gas" class="icon"></p>
+							<h5 >גז</h5>
+							<h6>התערבות ממשלתית בשוק הגז הטבעי תבריח משקיעים זרים מישראל</h6>
+							<button id="button7">
+								עמדת הליכוד
+							</button>
+							<div id="fullAns7" class="fullAns7 fullAnswers"></div>
+						</article>
+					</div>
+					<div id="left">
+						<article id="artAns1" class="answer1 artAns ansL">
+							<p id="milk_icon" class="icon"></p>
+							<h5 >יוקר המחייה</h5>
+							<h6>צריך להוריד את המע"מ על מוצרי מזון בסיסיים</h6>
+							<button id="button1">
+								לתשובה המלאה
+							</button>
+							<div id="fullAns1" class="fullAns1 fullAnswers "></div>
+						</article>
+
+						<article id="artAns4" class="answer4 artAns ansL">
+							<p id="icon_taxes" class="icon"></p>
+							<h5 >מיסוי</h5>
+							<h6>המדינה צריכה להטיל מסים גבוהים יותר ולתת בתמורה שירותים ציבוריים נרחבים יותר</h6>
+							<button id="button4">
+								עוד על עמדת ה
+							</button>
+							<div id="fullAns4" class="fullAns4 fullAnswers"></div>
+						</article>
+
+						<article id="artAns6" class="answer6 artAns ansL">
+							<p id="icon_apt" class="icon"></p>
+							<h5 >דיור</h5>
+							<h6>המדינה צריכה להשקיע מיליארדים בבניית דיור ציבורי לשכבות חלשות</h6>
+							<button id="button6">
+								לתשובה המלאה
+							</button>
+							<div id="fullAns6" class="fullAns6 fullAnswers"></div>
+						</article>
+
+						<article id="artAns8" class="answer8 artAns ansL">
+							<p id="icon_doctor" class="icon"></p>
+							<h5 >בריאות</h5>
+							<h6>הכנסת ניתוחים פרטיים בתשלום לבתי החולים הציבוריים תציל את מערכת הבריאות</h6>
+							<button id="button8">
+								לתשובה המלאה
+							</button>
+							<div id="fullAns8" class="fullAns8 fullAnswers"></div>
+						</article>
+					</div>
+				</section>
+				<section id="activity" class="partySection">
+					<h4>פעילות המפלגה</h4>
+					<p>
+						למפלגות שמרכיבות את הקואליציה יש פחות נציגים בכנסת, משום שחלק מהנציגים שלהן משמשים בתור שרים בממשלה. לכן יש להם גם פחות נוכחות בכנסת, והם מגישים פחות הצעות חוק.
+					</p>
+					<select id="comboBox" >
+						<option value="committee" id="boxCommittee">נוכחות במשכן</option>
+						<option value="residence" id="boxResidence">נוכחות בוועדות</option>
+						<option value="submission" id="boxSubmission">הצעות חוק שהוגשו</option>
+						<option value="approve" id="boxApprove">הצעות חוק שהועברו</option>
+					</select>
+					<div id="navBorder"></div>
+					<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+						<ul>
+							<li>
+								<button id="committee">
+									נוכחות במשכן
+								</button>
+							</li>
+							<li>
+								<button id="residence">
+									נוכחות בוועדות
+								</button>
+							</li>
+							<li>
+								<button id="submission">
+									הצעות חוק שהוגשו
+								</button>
+							</li>
+							<li>
+								<button id="approve">
+									הצעות חוק שהועברו
+								</button>
+							</li>
+						</ul>
+					</nav>
+					<aside id="hour"></aside>
+					<section id="partiesName">
+						<ul>
+							<li>
+								הליכוד
+							</li>
+							<li>
+								מרצ
+							</li>
+							<li>
+								הבית היהודי
+							</li>
+							<li>
+								יש עתיד
+							</li>
+							<li>
+								ישראל ביתנו
+							</li>
+							<li>
+								המחנה הציוני
+							</li>
+							<li>
+								הרשימה הערבית
+							</li>
+							<li>
+								ש"ס
+							</li>
+							<li>
+								יהדות התורה
+							</li>
+							<li>
+								כולנו
+							</li>
+						</ul>
+					</section>
+					<div id="deynmicActive">
+						<div class="progressBar" id="14ProgressBar"></div>
+						<div class="progressBar" id="20ProgressBar"></div>
+						<div class="progressBar" id="17ProgressBar"></div>
+						<div class="progressBar" id="15ProgressBar"></div>
+						<div class="progressBar" id="26ProgressBar"></div>
+						<div class="progressBar" id="16ProgressBar"></div>
+						<div class="progressBar" id="22ProgressBar"></div>
+						<div class="progressBar" id="18ProgressBar"></div>
+						<div class="progressBar" id="19ProgressBar"></div>
+					</div>
+					<div id="noData">
+						מפלגה חדשה, אין נתונים!
+					</div>
+					<h6 id="knesetPtoha">הנתונים מתוך אתר כנסת פתוחה</h6>
+				</section>
+				<section id="list">
+					<h4>הרשימה לכנסת ה-20 </h4>
+					<ul id="imagesList"></ul>
+				</section>
+				<section id="todot">
+					<p>
+						צילומים: אוהד צויגנברג, גיל יוחנן, עטא עסוואת, מיקי אלון, יובל חן, חיים צח, גדי קבלו, גיא אסיאג, אלכס קולומויסקי, איי.פי, עומר מסינגר, טל כהן, מיכאל קרמר, צביקה טישלר, אלעד גרשגורן, דמיטרי שבצ׳ינקו, ששון תירם, אביהו שפירא, אלון אלג׳ם, אפי שריר, שאול גולן, זהר שחר, נעם ריבקין פנטון, טל שחר, ענר גרין, אי.פי.איי, אוראל כהן, עמית שעל, עמית שאבי, אביגיל עוזי, עדי אורני, אלון בסון, אביב חופי, מירי דוידוביץ, עמית מגל, ערן יופי כהן, קובי גדעון, בשמת איבי.
+					</p>
+				</section>
+				<footer id="createdBy">
+					<b></b>
+					פרויקט ״הבחירה הכלכלית״ נוצר בסדנת הדאטה ג׳ורנליזם של שנקר וכלכליסט. כל הנתונים לקוחים מכלכליסט ומכנסת פתוחה.
+					<br>
+					<b>עיצוב: </b>
+					מירב רון ואלעד שטיין
+					<b>תכנות: </b>
+					תמר זנזורי וחיים יעקב
+					<b>תוכן: </b>
+					שאול אמסטרדמסקי
+					<b>עריכה: </b>
+					אלון רייס
+					<b>הנחייה אקדמית: </b>
+					מושון זר אביב ואמנון דקל
+				</footer>
+			</main>
+		</div>
+	</body>
+</html>
