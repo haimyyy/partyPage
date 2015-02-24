@@ -132,12 +132,14 @@ $(document).ready(function() {
 	$('#questionnaire h4').css({
 		"color" : tempName[numI].color
 	});
+	$('#questionnaire h4').html("עמדת "+tempName[numI].name+" בסוגיות הכלכליות הבוערות");
 	$("#" + num + "ProgressBar").css({
 		"background" : ((tempName[numI].color))
 	});
 	$('#comboBox').css({
 		"background" : tempName[numI].color
 	});
+
 	$.getJSON("../js/full.json", function(d) {
 		var dataFull = d.fullAnswers;
 		//$('#fullAns' + index).html(v);
@@ -151,7 +153,7 @@ $(document).ready(function() {
 		});
 	});
 	for ( u = 0; u < 9; u++) {
-		$('#button' + u).html("עוד על עמדת " + tempName[numI].name)
+		$('#button' + u).html("עמדת " + tempName[numI].name)
 
 	}
 	$(function() {
@@ -167,7 +169,7 @@ $(document).ready(function() {
 				$('#approve').click();
 		}).trigger("change");
 	});
-		updateData();
+	updateData();
 });
 function updateButton() {
 	allButton = ["committee", "residence", "submission", "approve"];
