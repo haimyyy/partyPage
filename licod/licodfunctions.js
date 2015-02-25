@@ -518,5 +518,5 @@ function updateButton() {
 function updateData() {
 	setTimeout(function() {
 		$("#committee").trigger("click");
-	}, 500);
+	}, 1000);
 }
