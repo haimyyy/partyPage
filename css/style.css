@@ -476,6 +476,7 @@ html, body {
         height: auto;
         border-bottom-color: #eae9e4;
         border-bottom-style: solid;
+        position: relative;
     }
     #questionnaire > h4 {
         float: right;
