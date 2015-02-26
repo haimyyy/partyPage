@@ -6,7 +6,7 @@ article, section, nav, aside, header, footer, main {
 	display: block;
 }
 *:focus {
-    outline: 0 !important;
+	outline: 0 !important;
 }
 @font-face {
 	font-family: Shual-Black;
@@ -504,13 +504,13 @@ html, body {
 		margin: 24px;
 	}
 	#hour {
-		position: relative;
-		float: left;
-		top: 4px;
-		left: 2%;
+		padding-top: 20px;
 		font-family: shual-regular;
-		height: 0px;
-		width: 11%;
+		font-size: 12px;
+		position: relative;
+		width: 30%;
+		top: 2px;
+		right: 4px;
 	}
 	#questionnaire {
 		margin-top: -60px;
@@ -556,7 +556,7 @@ html, body {
 		margin: 0%;
 		color: #454545;
 		right: 2%;
-		top: 8px;
+		top: 44px;
 		position: relative;
 		float: right;
 		font-family: shual-bold;
@@ -567,7 +567,7 @@ html, body {
 		width: 100%;
 		height: auto;
 		position: relative;
-		right: 2%;
+		right: 1%;
 		background-repeat: no-repeat;
 	}
 	h6 {
@@ -666,7 +666,7 @@ html, body {
 		margin-right: 24px;
 		margin-top: 20px;
 		float: right;
-		font-size: 36px;
+		font-size: 22px;
 		font-family: shual-regular;
 	}
 	#activity {
@@ -680,22 +680,24 @@ html, body {
 	}
 	#activity > p {
 		font-family: shual-regular;
-		font-size: 18px;
+		font-size: 16px;
 		color: #454545;
-		margin-top: 80px;
+		margin-top: 60px;
 		margin-right: 24px;
 		text-align: right;
 		margin-left: 40px;
 		margin-bottom: 20px;
 	}
 	#comboBox {
-		width: 45%;
+		width: 100%;
 		height: 33px;
 		direction: rtl;
 		float: right;
 		background: #4C4C4C;
 		color: #ffffff;
 		font-size: 16px;
+		font-family: shual-regular;
+		border-color: #FFFFFF;
 	}
 	#navBorder {
 		border-bottom: 1px solid grey;
@@ -759,14 +761,13 @@ html, body {
 		color: #4c4c4c;
 	}
 	#partiesName > ul > li {
-		/* padding-top: 15px; */
-		/* width: 114%; */
 		position: relative;
-		font-size: 20px;
+		font-size: 15px;
 		height: 39px;
-		font-family: shual-regular;
+		font-family: shual-light;
 		padding-bottom: 0px;
 		padding-top: 5px;
+		padding-right: 10%;
 	}
 	#deynmicActive {
 		float: right;
@@ -814,19 +815,21 @@ html, body {
 	#noData {
 		float: right;
 		position: relative;
-		top: -21px;
+		top: -19px;
 		right: 2%;
-		font-family: shual-regular;
-		font-size: 20px;
+		font-family: shual-light;
+		font-size: 18px;
 		color: #4c4c4c;
 	}
 	#knesetPtoha {
 		font-size: 11px;
 		font-family: alef-regular;
-		float: left;
-		margin-left: 7%;
-		top: 0px;
-		width: 40%;
+		/* float: left; */
+		/* margin-left: -6%; */
+		top: -9px;
+		float: right;
+		right: 17px;
+		width: auto;
 	}
 	#list {
 		width: 100%;
@@ -870,7 +873,6 @@ html, body {
 		margin-right: 3%;
 		padding-bottom: 20px;
 		float: right;
-		background: #ffffff;
 	}
 
 	#createdBy > b {
